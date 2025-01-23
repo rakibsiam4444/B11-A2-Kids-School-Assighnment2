@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+.first{
+    align-items: center;
+    justify-items: center;
+    max-width: 1440px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.align{
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+.color-y{
+    color: #FEA301;
+}
+.color-b{
+    color: rgb(16, 98, 251);
+}
+.color-g{
+    color: #00ff51;
+}
+.nav-item{
+    font-size: 1.5rem;
+}
+.school{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.display-flex{
+    display: flex;
+   
+}
+.head{
+    align-items: center;
+   width:1160px;
+   height: 4rem;
+    
+    justify-content: space-between;
+   /* background-image: linear-gradient(to bottom,green,white); */
+    
+}
+.list{
+    list-style: none;
+    justify-content: space-between;
+    gap: 20px;
+}
+.btn{
+    padding: .6rem 3.9rem;
+    background-color: #fda712;
+    border-radius: .8rem;
+   
+}
+/* first page design */
+.first-page{
+    justify-content: space-between 3rem;
+    align-items: center;
+    justify-items: center;
+    max-width: 1160px;
+    
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.color-cont{
+    width: 40rem;
+    height: 25rem;
+}
+.bold-font{
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.btn-black{
+    background-color: black;
+    padding: .6rem 2.9rem;
+    color: white;
+    font-size: 600;
+    border-radius: .8rem;
+}
+/* card design */
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.9rem;
+}
+.card{
+    border: 1px solid;
+    weight:23rem;
+    height: 30rem;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 19px;
+}
+.back1{
+    background-image: linear-gradient(to bottom,#A1E1FD,white);
+}
+.back2{
+    background-image: linear-gradient(to bottom,#FFE09C,white);
+}
+.back3{
+    background-image: linear-gradient(to bottom,#CFAAFF,white);
+}
+.card-items{
+ align-items: center;
+ text-align: center;
+ padding-top: 80px;
+}
+.second-tit{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.padd{
+    margin:60px auto;
+    text-align: center;
+}
