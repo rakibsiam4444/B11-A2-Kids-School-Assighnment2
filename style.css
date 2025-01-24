@@ -315,6 +315,15 @@
     border: none;
     margin-bottom: 0%;
 }
+#optional .op-btn{
+    .child-btn{
+        width: 90px;
+        height: 26px;
+        border-radius: 33px;
+       
+    }
+}
+
 .bg{
     background-image: url('assets/bg.png');
 }
