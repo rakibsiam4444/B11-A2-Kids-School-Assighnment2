@@ -63,6 +63,7 @@
         height: 100%;
         width: 100%;
        }
+       
    #tt{
     display:grid;
     border: 1px solid;
@@ -71,6 +72,8 @@
     margin: 0 auto;
     align-items: center;
    }
+   
+
       
 }
 .pp{
@@ -315,14 +318,7 @@
     border: none;
     margin-bottom: 0%;
 }
-#optional .op-btn{
-    .child-btn{
-        width: 90px;
-        height: 26px;
-        border-radius: 33px;
-       
-    }
-}
+
 
 .bg{
     background-image: url('assets/bg.png');
