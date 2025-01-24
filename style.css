@@ -57,13 +57,11 @@
     .color-cont{
         align-items: center;
         text-align: center;
-        
        }
        .kids{
         height: 100%;
         width: 100%;
        }
-       
    #tt{
     display:grid;
     border: 1px solid;
