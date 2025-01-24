@@ -10,14 +10,17 @@
 }
 @media screen and (max-width:576px) {
     
-    #nav,#rbox,#btn1,.school,.circle,.child-smile1{
+   .permanent, #nav,#rbox,#btn1,.school,.circle,.child-smile1{
         display: none;
+    }
+    #optional{
+        display: flex;
     }
     #rkbl{
       
     }
     #box-1{
-        /* display: none; */
+        display: none;
     }
     .tble{
         display:grid;
@@ -58,9 +61,23 @@
         text-align: center;
         
        }
+       .kids{
+        height: 100%;
+        width: 100%;
+       }
+   #tt{
+    display:grid;
+    border: 1px solid;
+    background-color: aqua;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+   }
       
 }
-
+.pp{
+    display: none;
+}
 .first{
     align-items: center;
     justify-items: center;
@@ -217,7 +234,20 @@
     border-radius: 1.5rem;
     padding: 0 0;
 }
-.child{
+.card-body{
+   
+    width: 100%;
+}
+#children1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    justify-content: space-between;
+    gap: 1.1rem;
+   
+   
+}
+#children{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     
@@ -229,6 +259,8 @@
 .child-smile{
    
     border-radius: 1.5rem 1.5rem 0 0;
+    height: 100%;
+    width: 100%;
 }
 .chld-c{
     grid-row:span 2;
