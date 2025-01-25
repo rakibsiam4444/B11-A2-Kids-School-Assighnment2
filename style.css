@@ -35,12 +35,12 @@
         flex-direction: column-reverse;
     }
     #last-section{
-        height: 642px;
+        height: 46rem;
         
     }
     #last-sect{
         flex-direction: column;
-        margin-top: -4rem;
+        margin-top: -6rem;
     }
     #sect1,#sect2{
         text-align: center;
@@ -328,7 +328,7 @@
     margin-left: 40px;
 }
 .para{
-    width: 25rem;
+    width: 90%;
 }
 .last{
     width: 1160px;
@@ -388,12 +388,23 @@
 .pizz{
     color: white;
 }
+.footer button:hover{
+    background-color: #402c0a;
+}
 .c{
     color: white;
 }
 .footer-first{
-    padding-right: 2.5rem;
+    padding-right: 2rem;
+   
+    max-width: 500px;
+    width: 100%;
 }
+
 .hide{
     display: none;
+}
+.box-shadow{
+    box-shadow:10px 10px rgb(222, 221, 221);
+   
 }
